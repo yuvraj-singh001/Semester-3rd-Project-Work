@@ -1,0 +1,122 @@
+.mainsearchbar
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+.bac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("assets/images/laptop_bg.jpg") no-repeat center center/cover;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.overlay
+{
+  width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+.search-containe {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.search-containe input{
+  background-color:#f5ebe0;
+
+}
+
+
+.search-bar {
+  width: 60%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #868484;
+  border-right: none;
+  border-radius: 0px 0px 0 25px;
+  outline: none;
+}
+
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid #868484;
+  background-color: #00b4d8;
+  color: rgb(255, 255, 255);
+  border-radius: 0px 25px 0px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+
+.book-containe {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #fcfadfcd;
+    height: 400px;
+    margin-top: 150px;
+}
+
+
+.book-imag {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.book-imag img {
+    width: 100px;
+    border-radius: 8px;
+}
+
+
+.book-detail {
+    text-align: left;
+}
+
+.book-titl {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.book-autho {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.book-descriptio {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+}
+
+.book-pric {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 15px;
+}

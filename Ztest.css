@@ -1,0 +1,54 @@
+.book-containe {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #ffe5ecb5;
+    height: 400px;
+    margin-top: 150px;
+}
+
+
+.book-imag {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.book-imag img {
+    width: 100px;
+    border-radius: 8px;
+}
+
+
+.book-detail {
+    text-align: left;
+}
+
+.book-titl {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.book-autho {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.book-descriptio {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+}
+
+.book-pric {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 15px;
+}

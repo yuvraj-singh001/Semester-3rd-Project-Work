@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    position: sticky ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Changed color to a nice blue */
+    padding: 20px 20px;
+}
+
+/* Logo and Website Name on the left */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.biblio {
+    color: #e38650;
+    font-size: 30px;
+    font-weight: 600;
+}
+.worm {
+    color: #6d92f0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* Navigation links on the right */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #dc5656;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #84cee69d;
+    border-radius: 5px;
+}
+
+/* Signup and Login buttons with extra styling */
+.nav-links .button {
+    background-color: #3da1e8;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links .button:hover {
+    background-color: #0000009a;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 400px) {
+    nav {
+        flex-direction: column;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
